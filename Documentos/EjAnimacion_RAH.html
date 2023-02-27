@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .terminal {
+            height: 345px;
+            width: 260px;
+            background: url("../Imagenes/PC\ Computer\ -\ Hollow\ Knight\ -\ Dung\ Defender.png");
+            animation-name: sprite;
+            animation-duration: 0.85s;
+            animation-timing-function: steps(5);
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes sprite {
+            from {
+                background-position-x: -4px;
+                background-position-y: -22px;
+            }
+
+            to {
+                background-position-x: -1324px;
+                background-position-y: -22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="terminal"></div>
+</body>
+
+</html>
