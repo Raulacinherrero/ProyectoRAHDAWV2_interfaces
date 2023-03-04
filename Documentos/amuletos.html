@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amuletos</title>
+</head>
+<style>
+
+#contenedor{    
+    height: 590px;
+    width: 1548px;
+    background-image: url(../Imagenes/amuletos.png);    
+    position: relative;
+}
+
+#contenedor div{
+    position: absolute;        
+}    
+
+/* Amuletos Primera fila */
+#brujula_caprichosa {left: 0px; top: 0px; width: 145px; height: 145px;}
+#enjambre_recolector {left: 154px; top: 0px; width: 145px; height: 145px;}
+#coraza_robusta {left: 290px; top: 0px; width: 145px; height: 145px;}
+#atrapaalmas {left: 435px; top: 0px; width: 145px; height: 145px;}
+#piedra_de_chaman {left: 580px; top: 0px; width: 145px; height: 145px;}
+#devoraalmas {left: 725px; top: 0px; width: 145px; height: 145px;}
+#maestro_de_las_embestidas {left: 870px; top: 0px; width: 145px; height: 145px;}
+#maestro_de_sprints {left: 1015px; top: 0px; width: 145px; height: 145px;}
+#cancion_de_larvas {left: 1160px; top: 0px; width: 145px; height: 145px;}
+#elegia_de_la_larvamosca {left: 1305px; top: 0px; width: 145px; height: 145px;}
+
+/* Amuletos Segunda fila */
+#corazon_fragil_irrompible {left: 96px; top: 150px; width: 145px; height: 145px;}
+#codicia_fragil_irrompible {left: 241px; top: 150px; width: 145px; height: 145px;}
+#fuerza_fragil_irrompible {left: 386px; top: 150px; width: 145px; height: 145px;}
+#tuercehechizos {left: 531px; top: 150px; width: 145px; height: 145px;}
+#cuerpo_firme {left: 676px; top: 150px; width: 145px; height: 145px;}
+#duro_golpe {left: 821px; top: 150px; width: 145px; height: 145px;}
+#corte_rapido {left: 966px; top: 150px; width: 145px; height: 145px;}
+#largoaguijon {left: 1111px; top: 150px; width: 145px; height: 145px;}
+#marca_de_orgullo {left: 1256px; top: 150px; width: 145px; height: 145px;}
+#furia_de_los_caidos {left: 1401px; top: 150px; width: 145px; height: 145px;}
+
+/* Amuletos Tercera fila */
+#espinas_de_agonia {left: 0px; top: 290px; width: 145px; height: 145px;}
+#coraza_de_baldur {left: 154px; top: 290px; width: 145px; height: 145px;}
+#tremanido {left: 290px; top: 290px; width: 145px; height: 145px;}
+#blason_del_defensor {left: 435px; top: 290px; width: 145px; height: 145px;}
+#utero_brillante {left: 580px; top: 290px; width: 145px; height: 145px;}
+#concentracion_rapida {left: 725px; top: 290px; width: 145px; height: 145px;}
+#concentracion_profunda {left: 870px; top: 290px; width: 145px; height: 145px;}
+#corazon_de_saviavida {left: 1015px; top: 290px; width: 145px; height: 145px;}
+#nucleo_de_saviavida {left: 1160px; top: 290px; width: 145px; height: 145px;}
+#bendicion_de_joni {left: 1305px; top: 290px; width: 145px; height: 145px;}
+
+/* Amuletos Cuarta fila */
+#sangrecolmena {left: 96px; top: 435px; width: 145px; height: 145px;}
+#hongo_con_esporas {left: 241px; top: 435px; width: 145px; height: 145px;}
+#sombra_afilada {left: 386px; top: 435px; width: 145px; height: 145px;}
+#forma_de_unn {left: 531px; top: 435px; width: 145px; height: 145px;}
+#gloria_del_maestro_de_aguijones {left: 676px; top: 435px; width: 145px; height: 145px;}
+#cancion_de_tejedora {left: 821px; top: 435px; width: 145px; height: 145px;}
+#portador_onirico {left: 966px; top: 435px; width: 145px; height: 145px;}
+#escudo_onirico {left: 1111px; top: 435px; width: 145px; height: 145px;}
+#melodia_despreocupada_nino_de_grimm {left: 1256px; top: 435px; width: 145px; height: 145px;}
+#alma_del_monarca_corazon_del_vacio {left: 1401px; top: 435px; width: 145px; height: 145px;}
+
+/* Amuletos:hover Primera fila */
+#brujula_caprichosa:hover {background: url(../Imagenes/amuletos.png) -2px -588px no-repeat;}
+#enjambre_recolector:hover {background: url(../Imagenes/amuletos.png) -157px -588px no-repeat;}
+#coraza_robusta:hover {background: url(../Imagenes/amuletos.png) -294px -588px no-repeat;}
+#atrapaalmas:hover {background: url(../Imagenes/amuletos.png) -440px -588px no-repeat;}
+#piedra_de_chaman:hover {background: url(../Imagenes/amuletos.png) -586px -588px no-repeat;}
+#devoraalmas:hover {background: url(../Imagenes/amuletos.png) -731px -588px no-repeat;}
+#maestro_de_las_embestidas:hover {background: url(../Imagenes/amuletos.png) -877px -588px no-repeat;}
+#maestro_de_sprints:hover {background: url(../Imagenes/amuletos.png) -1023px -588px no-repeat;}
+#cancion_de_larvas:hover {background: url(../Imagenes/amuletos.png) -1169px -588px no-repeat;}
+#elegia_de_la_larvamosca:hover {background: url(../Imagenes/amuletos.png) -1315px -588px no-repeat;}
+
+/* Amuletos:hover Segunda fila */
+#corazon_fragil_irrompible:hover {background: url(../Imagenes/amuletos.png) -98px -738px no-repeat;}
+#codicia_fragil_irrompible:hover {background: url(../Imagenes/amuletos.png) -242px -738px no-repeat;}
+#fuerza_fragil_irrompible:hover {background: url(../Imagenes/amuletos.png) -390px -738px no-repeat;}
+#tuercehechizos:hover {background: url(../Imagenes/amuletos.png) -536px -738px no-repeat;}
+#cuerpo_firme:hover {background: url(../Imagenes/amuletos.png) -682px -738px no-repeat;}
+#duro_golpe:hover {background: url(../Imagenes/amuletos.png) -828px -738px no-repeat;}
+#corte_rapido:hover {background: url(../Imagenes/amuletos.png) -974px -738px no-repeat;}
+#largoaguijon:hover {background: url(../Imagenes/amuletos.png) -1119px -738px no-repeat;}
+#marca_de_orgullo:hover {background: url(../Imagenes/amuletos.png) -1266px -738px no-repeat;}
+#furia_de_los_caidos:hover {background: url(../Imagenes/amuletos.png) -1411px -738px no-repeat;}
+
+/* Amuletos:hover Tercera fila */
+#espinas_de_agonia:hover {background: url(../Imagenes/amuletos.png) -2px -879px no-repeat;}
+#coraza_de_baldur:hover {background: url(../Imagenes/amuletos.png) -157px -879px no-repeat;}
+#tremanido:hover {background: url(../Imagenes/amuletos.png) -294px -879px no-repeat;}
+#blason_del_defensor:hover {background: url(../Imagenes/amuletos.png) -440px -879px no-repeat;}
+#utero_brillante:hover {background: url(../Imagenes/amuletos.png) -586px -879px no-repeat;}
+#concentracion_rapida:hover {background: url(../Imagenes/amuletos.png) -731px -879px no-repeat;}
+#concentracion_profunda:hover {background: url(../Imagenes/amuletos.png) -877px -879px no-repeat;}
+#corazon_de_saviavida:hover {background: url(../Imagenes/amuletos.png) -1023px -879px no-repeat;}
+#nucleo_de_saviavida:hover {background: url(../Imagenes/amuletos.png) -1169px -879px no-repeat;}
+#bendicion_de_joni:hover {background: url(../Imagenes/amuletos.png) -1315px -879px no-repeat;}
+
+/* Amuletos:hover Cuarta fila */
+#sangrecolmena:hover {background: url(../Imagenes/amuletos.png) -98px -1025px no-repeat;}
+#hongo_con_esporas:hover {background: url(../Imagenes/amuletos.png) -244px -1025px no-repeat;}
+#sombra_afilada:hover {background: url(../Imagenes/amuletos.png) -391px -1025px no-repeat;}
+#forma_de_unn:hover {background: url(../Imagenes/amuletos.png) -536px -1025px no-repeat;}
+#gloria_del_maestro_de_aguijones:hover {background: url(../Imagenes/amuletos.png) -682px -1025px no-repeat;}
+#cancion_de_tejedora:hover {background: url(../Imagenes/amuletos.png) -828px -1025px no-repeat;}
+#portador_onirico:hover {background: url(../Imagenes/amuletos.png) -974px -1025px no-repeat;}
+#escudo_onirico:hover {background: url(../Imagenes/amuletos.png) -1119px -1025px no-repeat;}
+#melodia_despreocupada_nino_de_grimm:hover {background: url(../Imagenes/amuletos.png) -1266px -1025px no-repeat;}
+#alma_del_monarca_corazon_del_vacio:hover {background: url(../Imagenes/amuletos.png) -1411px -1025px no-repeat;}
+  
+</style>
+<body>
+
+<div id="contenedor">
+    <div id="brujula_caprichosa"></div>
+    <div id="enjambre_recolector"></div>
+    <div id="coraza_robusta"></div>
+    <div id="atrapaalmas"></div>
+    <div id="piedra_de_chaman"></div>
+    <div id="devoraalmas"></div>
+    <div id="maestro_de_las_embestidas"></div>
+    <div id="maestro_de_sprints"></div>
+    <div id="cancion_de_larvas"></div>
+    <div id="elegia_de_la_larvamosca"></div>
+    <div id="corazon_fragil_irrompible"></div>
+    <div id="codicia_fragil_irrompible"></div>
+    <div id="fuerza_fragil_irrompible"></div>
+    <div id="tuercehechizos"></div>
+    <div id="cuerpo_firme"></div>
+    <div id="duro_golpe"></div>
+    <div id="corte_rapido"></div>
+    <div id="largoaguijon"></div>
+    <div id="marca_de_orgullo"></div>
+    <div id="furia_de_los_caidos"></div>
+    <div id="espinas_de_agonia"></div>
+    <div id="coraza_de_baldur"></div>
+    <div id="tremanido"></div>
+    <div id="blason_del_defensor"></div>
+    <div id="utero_brillante"></div>
+    <div id="concentracion_rapida"></div>
+    <div id="concentracion_profunda"></div>
+    <div id="corazon_de_saviavida"></div>
+    <div id="nucleo_de_saviavida"></div>
+    <div id="bendicion_de_joni"></div>
+    <div id="sangrecolmena"></div>
+    <div id="hongo_con_esporas"></div>
+    <div id="sombra_afilada"></div>
+    <div id="forma_de_unn"></div>
+    <div id="gloria_del_maestro_de_aguijones"></div>
+    <div id="cancion_de_tejedora"></div>
+    <div id="portador_onirico"></div>
+    <div id="escudo_onirico"></div>
+    <div id="melodia_despreocupada_nino_de_grimm"></div>
+    <div id="alma_del_monarca_corazon_del_vacio"></div>
+</div>  
+                
+</body>
+</html>
