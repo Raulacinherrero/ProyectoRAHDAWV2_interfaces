@@ -5,34 +5,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animation</title>
-    <style>
-        .terminal {
-            height: 345px;
-            width: 260px;
-            background: url("../Imagenes/sprites_DungDefender.png");
-            animation-name: sprite;
-            animation-duration: 0.5s;
-            animation-timing-function: steps(5);
-            animation-iteration-count: infinite;
-        }
-
-        @keyframes sprite {
-            from {
-                background-position-x: -4px;
-                background-position-y: -22px;
-            }
-
-            to {
-                background-position-x: -1324px;
-                background-position-y: -22px;
-            }
-        }
-    </style>
+    <title>RAH_DIWproject</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link href="../CSS/css.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="../index.html"><img src="../Imagenes/The_Knight.webp" alt="logo"
+                style="width: 70px;"></a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        CSS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./animacion.html">Introducción</a>
+                        <a class="dropdown-item" href="./amuletos.html">Amuletos del caballero</a>
+                        <a class="dropdown-item" href="./mapa.html">Mapa de Hallownest</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Boostrap
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./galeria.html">Galería de Capturas</a>
+                        <a class="dropdown-item" href="./tablas.html">Personajes y enemigos</a>
+                        <a class="dropdown-item" href="./formulario.html">Formulario</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        TailWind
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./critica.html">Reseña</a>
+                        <a class="dropdown-item" href="./estadisticas.html">Estadísticas</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <p>Proyecto DIW Raúl Acín Herrero</p>
+    </nav>
+    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);"
+        aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Introducción</li>
+        </ol>
+    </nav>
+    <p class="parrafo">Hollow knight es un juego creado por la compañía Team Cherry, es de género Metroidvania y muchos
+        afirman que es
+        el mejor creado hasta la fecha, a continuación se hablará un poco a cerca del juego y de algunos aspectos del
+        mismo.<br>Acompañadme en las diferentes páginas del menú de navegación en la parte superior de la pantalla y
+        no dudéis en haceros miembros de su gran club de fans.</p>
     <div class="terminal"></div>
+    <p class="parrafo">Ogrim, Defensor del Estiércol<br>(el mejor personaje del juego)</p>
 </body>
 
 </html>

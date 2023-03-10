@@ -5,15 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hollow Knight RAH</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-    <header>
-        <img class="logo" src="./Imagenes/The_Knight.webp" alt="Página principal">
-        <h1 class="tituloPag">Guía Turística de Hollow Knight</h1>
-    </header>
-    <footer></footer>
+    <section class="relative bg-[url(./Imagenes/banner.jpg)] bg-cover bg-center bg-no-repeat">
+        <div class="absolute inset-0 bg-white/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/95 sm:to-white/25">
+        </div>
+
+        <div class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
+            <div class="max-w-xl text-center sm:text-left">
+                <h1 class="text-3xl font-extrabold sm:text-5xl">
+                    Bienvenido a
+
+                    <strong class="block font-extrabold">
+                        Hallownest
+                    </strong>
+                </h1>
+
+                <p class="mt-4 max-w-lg sm:text-xl sm:leading-relaxed">
+                    ¿Eres fan del videojuego Hollow Knight? Adéntrate dentro de su lúgubre mundo y comienza tu aventura
+                </p>
+
+                <div class="mt-8 flex flex-wrap gap-4 text-center">
+                    <a href="./Documentos/animacion.html"
+                        class="block w-full rounded bg-blue-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-gray-700 focus:outline-none focus:ring sm:w-auto">
+                        Empezar
+                    </a>
+                    <a href="https://store.steampowered.com/app/367520/Hollow_Knight/"
+                    class="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-gray-600 shadow hover:text-blue-700 focus:outline-none focus:ring sm:w-auto">
+                    Comprar juego
+                </a>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>

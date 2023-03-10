@@ -1,0 +1,1 @@
+El documento ha sido probado desde Visual Studio Code con Live Server, si hay algún problema para abrir la página por favor informeme del problema
